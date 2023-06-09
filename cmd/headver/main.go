@@ -8,8 +8,8 @@ import (
 )
 
 var (
-	headFlag = flag.Int("head", 0, "Number of head version")
-	buildFlag = flag.Int("build", 0, "Number of build version")
+	headFlag   = flag.Int("head", 0, "Number of head version")
+	buildFlag  = flag.Int("build", 0, "Number of build version")
 	suffixFlag = flag.String("suffix", "", "Suffix after version")
 )
 
