@@ -24,4 +24,5 @@ jobs:
       run: |
         cd ci
         ls -lah
+        pwd
         go run .
